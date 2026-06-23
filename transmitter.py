@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 import requests
+import os
+
+#check if number.txt is installed
+not_missing = os.path.isfile("number.txt")
+if not_missing == False:
+    with open("number.txt", "w") as fn:
+        fn.write("1")
 
 #get the message id
 with open("number.txt", "r") as fn:
