@@ -1,1 +1,1 @@
-download the python file and the number.txt file and make sure they are in the same directory
+download the python file and the number.txt file and make sure they are in the same directory and you need the requests library for python
